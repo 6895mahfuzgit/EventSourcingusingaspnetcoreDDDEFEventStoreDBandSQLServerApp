@@ -1,0 +1,4 @@
+﻿Install-Package MediatR
+Install-Package MediatR.Extensions.Microsoft.DependencyInjection
+Install-Package Microsoft.Extensions.DependencyInjection.Abstractions
+Install-Package Newtonsoft.Json

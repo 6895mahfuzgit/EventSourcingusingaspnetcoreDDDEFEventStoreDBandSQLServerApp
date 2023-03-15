@@ -1,0 +1,5 @@
+﻿ Install-Package EventStore.Client.Grpc.Streams
+ Install-Package Microsoft.EntityFrameworkCore
+ Install-Package Microsoft.Extensions.Configuration.Abstractions
+ Install-Package Microsoft.Extensions.DependencyInjection.Abstractions
+ Install-Package Newtonsoft.Json
