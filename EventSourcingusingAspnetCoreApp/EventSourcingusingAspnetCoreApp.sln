@@ -3,15 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSourcingusingAspnetCoreApp", "EventSourcingusingAspnetCoreApp.csproj", "{B711358F-FF29-42E6-9F31-B9FA70917FF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventSourcingusingAspnetCoreApp", "EventSourcingusingAspnetCoreApp.csproj", "{B711358F-FF29-42E6-9F31-B9FA70917FF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "..\Catalog.API\Catalog.API.csproj", "{E71A5006-3B29-4788-879D-FDDDE576D26A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "..\Catalog.API\Catalog.API.csproj", "{E71A5006-3B29-4788-879D-FDDDE576D26A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "..\Application\Application.csproj", "{6BF5523C-64F8-4D3B-8B86-7E88499145EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "..\Application\Application.csproj", "{6BF5523C-64F8-4D3B-8B86-7E88499145EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{69281641-3445-487D-8031-8863DE237B4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "..\Domain\Domain.csproj", "{69281641-3445-487D-8031-8863DE237B4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "..\Infrastructure\Infrastructure.csproj", "{7B46FC9A-A306-47DA-9C72-1A7D0B6A15F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "..\Infrastructure\Infrastructure.csproj", "{7B46FC9A-A306-47DA-9C72-1A7D0B6A15F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DE13ABA7-FCC2-4EC0-9DEA-3C951B1A4CCB}"
+	ProjectSection(SolutionItems) = preProject
+		BaseAggregateRoot.txt = BaseAggregateRoot.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
